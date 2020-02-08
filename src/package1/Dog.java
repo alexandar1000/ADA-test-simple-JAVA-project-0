@@ -7,7 +7,11 @@ public class Dog extends Animal implements Entity, Term {
 
     static long LENGTH = 12;
 
-    public Leg getLeg(Fish fish, int n) {
+    public Dog() {
+
+    }
+
+    public Leg getLeg(Fish fish, int x, int y, int z, String s) {
         fish.swim();
 
         Cat cat = new Cat();
@@ -21,8 +25,7 @@ public class Dog extends Animal implements Entity, Term {
     class Bulldog extends Animal {
 
         void bark() {
-            int x = 5;
-            Leg leg = new Dog().getLeg(new Fish(), x);
+            Leg leg = new Dog().getLeg(new Fish(), new Fish().getSpeed(), new Fish().SPEED, 777, "str");
         }
 
         class FatBullDog {

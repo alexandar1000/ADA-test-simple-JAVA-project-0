@@ -9,4 +9,8 @@ public class Fish {
     Dog protector = new Dog();
 
     public void swim() {}
+
+    public int getSpeed() {
+        return SPEED;
+    }
 }
