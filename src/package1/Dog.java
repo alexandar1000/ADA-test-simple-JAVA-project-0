@@ -11,11 +11,16 @@ public class Dog extends Animal implements Entity, Term {
 
     }
 
+    public Dog(int number, String str) {
+
+    }
+
     public Leg getLeg(Fish fish, int x, int y, int z, String s) {
         fish.swim();
 
         Cat cat = new Cat();
         cat.catchMouse();
+
 
         cat.eat(new Bulldog());
 
@@ -25,16 +30,19 @@ public class Dog extends Animal implements Entity, Term {
     class Bulldog extends Animal {
 
         void bark() {
+
             Leg leg = new Dog().getLeg(new Fish(), new Fish().getSpeed(), new Fish().SPEED, 777, "str");
         }
 
         class FatBullDog {
-            void run() {}
+            void run() {
+            }
         }
     }
 
     class Haski {
-        void play() {}
+        void play() {
+        }
     }
 
 }
