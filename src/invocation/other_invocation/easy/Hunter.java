@@ -8,18 +8,19 @@ import java.util.HashSet;
 import java.util.Set;
 
 // only internal and external invocation should be parsed
+// TODO: Recursive constructor call can cause stackoverflow problem
 public class Hunter {
 
     // internal
     Duck duck = new Duck();
     int duckWeight = duck.getWeight();
 
-    // external TODO: add constructor
+    // external TODO: find more examples. add constructor, attribute call
     String s = Strings.repeat("-", 3);
 
     // self
-    Hunter me = new Hunter();
-    int myAge = me.getAge();
+//    Hunter me = new Hunter();
+//    int myAge = me.getAge();
 
     // java
     int i = Integer.compare(0, 1);
@@ -35,8 +36,8 @@ public class Hunter {
         boolean boo = Strings.isNullOrEmpty("");
 
         // self
-        Hunter you = new Hunter();
-        int yourAge = me.getAge();
+//        Hunter you = new Hunter();
+//        int yourAge = me.getAge();
 
         // java
         int i = Integer.compare(0, 1);
@@ -53,8 +54,8 @@ public class Hunter {
         String s = Strings.emptyToNull("");
 
         // self
-        Hunter me = new Hunter();
-        int myAge = me.getAge();
+//        Hunter me = new Hunter();
+//        int myAge = me.getAge();
 
         // java
         System.out.println(666);
@@ -64,4 +65,9 @@ public class Hunter {
     int getAge() {
         return 20;
     }
+
+    public static void main(String[] args) {
+        Hunter hunter = new Hunter();
+    }
 }
+
