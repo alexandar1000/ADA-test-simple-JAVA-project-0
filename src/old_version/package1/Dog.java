@@ -1,8 +1,8 @@
-package package1;
+package old_version.package1;
 
-import package2.Bulldog;
-import package2.Leg;
-import package2.Term;
+import old_version.package2.Bulldog;
+import old_version.package2.Leg;
+import old_version.package2.Term;
 
 public class Dog extends Animal implements Entity, Term {
 

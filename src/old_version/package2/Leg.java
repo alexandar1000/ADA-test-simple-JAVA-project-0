@@ -1,4 +1,4 @@
-package package2;
+package old_version.package2;
 
 import com.google.common.base.Strings;
 

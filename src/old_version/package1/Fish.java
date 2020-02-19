@@ -1,4 +1,4 @@
-package package1;
+package old_version.package1;
 
 public class Fish {
 

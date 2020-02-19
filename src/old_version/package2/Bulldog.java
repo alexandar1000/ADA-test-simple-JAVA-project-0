@@ -1,8 +1,8 @@
-package package2;
+package old_version.package2;
 
-import package1.Animal;
-import package1.Dog;
-import package1.Fish;
+import old_version.package1.Animal;
+import old_version.package1.Dog;
+import old_version.package1.Fish;
 
 public class Bulldog extends Animal {
 

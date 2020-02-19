@@ -1,4 +1,4 @@
-package package1;
+package old_version.package1;
 
 public abstract class Animal implements Entity {
 
