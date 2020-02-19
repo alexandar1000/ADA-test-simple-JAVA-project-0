@@ -1,8 +1,14 @@
 package invocation.attribute_invocation;
 
+
 public class Horse {
 
-    public int speed = Donkey.fast_speed + Donkey.slow_speed * 2;
+    public static int speed = Donkey.fast_speed + Donkey.slow_speed * 2;
+
+    // self-invocation
+    int mySpeed = Horse.speed;
+
+    // TODO: add external attribution invocation
 
     // inside constructor
     public Horse() {
