@@ -6,9 +6,9 @@ public class Bird {
 
     protected Bird(int age, String name) {}
 
-    Bird(int age, String name, Callee callee) {}
+    Bird(int age, String name, BirdHead birdHead) {}
 
-    Bird(Callee callee, int age, String name) {}
+    Bird(BirdHead birdHead, int age, String name) {}
 
-    Bird(Callee callee, Integer age, String name) {}
+    Bird(BirdHead birdHead, Integer age, String name) {}
 }
