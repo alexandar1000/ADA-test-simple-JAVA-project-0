@@ -2,7 +2,7 @@ package invocation.attribute_invocation;
 
 public class Horse {
 
-    int speed = Donkey.fast_speed + Donkey.slow_speed * 2;
+    public int speed = Donkey.fast_speed + Donkey.slow_speed * 2;
 
     // inside constructor
     public Horse() {
