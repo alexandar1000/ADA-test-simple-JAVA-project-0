@@ -11,4 +11,7 @@ public class Bird {
     Bird(BirdHead birdHead, int age, String name) {}
 
     Bird(BirdHead birdHead, Integer age, String name) {}
+
+    // not constructor declaration
+    public void Bird(String NOT_CONSTRUCTOR) {}
 }
