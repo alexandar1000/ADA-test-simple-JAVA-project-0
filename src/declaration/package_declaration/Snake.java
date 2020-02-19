@@ -1,4 +1,4 @@
 package declaration.package_declaration;
 
-public enum DogType {
+public class Snake {
 }

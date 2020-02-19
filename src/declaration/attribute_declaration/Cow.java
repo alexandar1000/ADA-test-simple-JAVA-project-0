@@ -3,7 +3,7 @@ package declaration.attribute_declaration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cat {
+public class Cow {
 
     int age;
 
@@ -11,10 +11,10 @@ public class Cat {
 
     final String name = "Kitty";
 
-    private CatEye leftEye;
+    private CowEye leftEye;
 
-    protected static final CatEye rightEye = new CatEye("blue");
+    protected static final CowEye rightEye = new CowEye("blue");
 
-    List<CatEye> catEyes = new ArrayList<>();
+    List<CowEye> cowEyes = new ArrayList<>();
 
 }

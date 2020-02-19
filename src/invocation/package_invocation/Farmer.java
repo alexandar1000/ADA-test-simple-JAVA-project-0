@@ -2,7 +2,7 @@ package invocation.package_invocation;
 
 import com.google.common.base.Strings;
 
-import declaration.package_declaration.Dog;
+import declaration.package_declaration.Snake;
 import invocation.attribute_invocation.*;
 
 import java.util.Set;
@@ -15,7 +15,7 @@ public class Farmer {
 
     Donkey donkey;
 
-    Dog dog;
+    Snake snake;
 
     Set<String> set;
 
