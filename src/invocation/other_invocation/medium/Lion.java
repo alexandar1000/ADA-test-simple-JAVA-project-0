@@ -19,4 +19,5 @@ public class Lion {
 
 class Lional {
 
+    String name = "Messi";
 }
