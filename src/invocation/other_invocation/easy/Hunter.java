@@ -19,8 +19,8 @@ public class Hunter {
     String s = Strings.repeat("-", 3);
 
     // self
-//    Hunter me = new Hunter();
-//    int myAge = me.getAge();
+    Hunter me = new Hunter();
+    int myAge = me.getAge();
 
     // java
     int i = Integer.compare(0, 1);
@@ -36,8 +36,8 @@ public class Hunter {
         boolean boo = Strings.isNullOrEmpty("");
 
         // self
-//        Hunter you = new Hunter();
-//        int yourAge = me.getAge();
+        Hunter you = new Hunter();
+        int yourAge = me.getAge();
 
         // java
         int i = Integer.compare(0, 1);
@@ -54,8 +54,8 @@ public class Hunter {
         String s = Strings.emptyToNull("");
 
         // self
-//        Hunter me = new Hunter();
-//        int myAge = me.getAge();
+        Hunter me = new Hunter();
+        int myAge = me.getAge();
 
         // java
         System.out.println(666);
@@ -66,8 +66,5 @@ public class Hunter {
         return 20;
     }
 
-    public static void main(String[] args) {
-        Hunter hunter = new Hunter();
-    }
 }
 
