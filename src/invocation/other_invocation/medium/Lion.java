@@ -16,3 +16,7 @@ public class Lion {
 
     }
 }
+
+class Lional {
+
+}
