@@ -1,6 +1,7 @@
 package declaration.enum_declaration;
 
 public enum Planet {
+
     MERCURY (3.303e+23, 2.4397e6),
     VENUS   (4.869e+24, 6.0518e6),
     EARTH   (5.976e+24, 6.37814e6),
@@ -18,8 +19,8 @@ public enum Planet {
         this.radius = radius;
     }
 
-    private double mass() { return mass; }
-    private double radius() { return radius; }
+    protected double mass() { return mass; }
+    protected double radius() { return radius; }
 
     public static final double G = 6.67300E-11;
 
