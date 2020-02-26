@@ -1,4 +1,5 @@
 package declaration.package_declaration;
 
-public enum SnakeType {
+public enum SnakeType implements AnimalType {
+
 }
