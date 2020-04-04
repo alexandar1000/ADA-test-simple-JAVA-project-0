@@ -4,10 +4,11 @@ package invocation.package_invocation;
 
 import declaration.package_declaration.Snake;
 import invocation.attribute_invocation.*;
+import invocation.other_invocation.medium.Teeth;
 
 import java.util.Set;
 
-public class Farmer {
+public class Farmer extends Teeth {
 
     Horse horse;
 
