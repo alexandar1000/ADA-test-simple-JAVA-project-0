@@ -1,8 +1,9 @@
 package invocation.other_invocation.easy;
 
-import com.google.common.base.Strings;
 import declaration.method_declaration.Fish;
+import invocation.attribute_invocation.Donkey;
 import invocation.attribute_invocation.Horse;
+import invocation.package_invocation.Farmer;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,7 +17,7 @@ public class Hunter {
     int duckWeight = duck.getWeight();
 
     // external TODO: find more examples. add constructor, attribute call
-    String s = Strings.repeat("-", 3);
+    //String s = Strings.repeat("-", 3);
 
     // self
     Hunter me = new Hunter();
@@ -27,13 +28,13 @@ public class Hunter {
     Set<String> set = new HashSet<>();
 
     // inside constructor
-    Hunter(){
+    Hunter() {
         // internal
         Horse horse = new Horse();
         horse.toString();
 
         // external TODO: add constructor
-        boolean boo = Strings.isNullOrEmpty("");
+        //boolean boo = Strings.isNullOrEmpty("");
 
         // self
         Hunter you = new Hunter();
@@ -51,8 +52,10 @@ public class Hunter {
         fish.swim(1);
 
         // external TODO: add constructor
-        String s = Strings.emptyToNull("");
+        //String s = Strings.emptyToNull("");
 
+        Donkey dd = new Donkey();
+        dd.chase(0);
         // self
         Hunter me = new Hunter();
         int myAge = me.getAge();
@@ -63,6 +66,8 @@ public class Hunter {
     }
 
     int getAge() {
+        Farmer ff = new Farmer();
+        ff.farm();
         return 20;
     }
 

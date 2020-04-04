@@ -24,7 +24,7 @@ public enum Planet {
 
     public static final double G = 6.67300E-11;
 
-    double surfaceGravity() {
+    public double surfaceGravity() {
         return G * mass / (radius * radius);
     }
 

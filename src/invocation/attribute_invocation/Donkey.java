@@ -8,7 +8,7 @@ public class Donkey {
 
     protected String name;
 
-    void chase(int speed) {
+    public  void chase(int speed) {
 
     }
 
