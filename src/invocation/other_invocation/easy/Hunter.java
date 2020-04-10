@@ -44,7 +44,6 @@ public class Hunter {
         int i = Integer.compare(0, 1);
         Set<String> set = new HashSet<>();
 
-        new Duck
     }
 
     // inside method
